@@ -1,0 +1,26 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* A colourful background using a linear gradient */
+  background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+header, footer {
+  min-height: 30px;
+  width: 100%;
+  background-color: #d7f4ff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  min-height: 330px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
